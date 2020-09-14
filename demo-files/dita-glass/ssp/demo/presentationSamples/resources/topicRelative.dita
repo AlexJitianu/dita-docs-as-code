@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE topic PUBLIC "-//OASIS//DTD DITA Topic//EN" "topic.dtd">
+<topic id="topic_lkq_lg2_vq">
+  <title>[SVG] Sales Graph</title>
+  <body>
+    <p><image
+        href="excel2svg:/sales.xls"
+      /></p>
+    
+    <p>Add first choice particle: <ph conkeyref="uiLabels/Add_first_choice_particle"/></p>
+		
+  </body>
+</topic>

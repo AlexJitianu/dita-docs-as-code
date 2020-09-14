@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE task PUBLIC "-//OASIS//DTD DITA Task//EN" "task.dtd">
+<?xml-stylesheet type="text/css" href="actions.css"?>
+<task id="create_google_account">
+    <title><?oxy-placeholder content="The name of the task"?></title>
+    <shortdesc><?oxy-placeholder content="Writing short descriptions induces the writer to clarify the main thesis of the topic. We recommended a 50 word limit."?></shortdesc>
+    <taskbody>
+        <steps>
+            <step>
+                <cmd><?oxy-placeholder content="The step that the user must perform."?></cmd>
+            </step>
+        </steps>
+    </taskbody>
+</task>

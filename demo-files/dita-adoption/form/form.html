@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+    <head>
+        <title></title>
+        <link rel="stylesheet" type="text/css" href="bootstrap-4.0.0/css/bootstrap.css"></link>
+        <script src="interaction.js"></script> 
+    </head>
+    <body style="margin: 20px">
+      
+                
+        <h1 style="margin: 20px">Task template</h1>  
+
+                
+                <!-- Text input-->
+                <div class="row form-group">
+                    <label class="col-sm-1 control-label" for="textinput">Title</label>  
+                    <div class="col-sm-5">
+                        <input id="textinput" name="textinput" type="text" placeholder="placeholder" class="form-control input-md title" value="Create a Google account"></input>
+                    </div>
+                </div>
+                
+                <!-- Textarea -->
+                <div class="row form-group">
+                    <label class="col-sm-1 control-label" for="textarea">Short Description</label>
+                    <div class="col-sm-5">                     
+                        <textarea class="form-control shortdesc" id="textarea" name="textarea">How to create or set up your Google Account on your mobile phone.</textarea>
+                    </div>
+                </div>
+                
+                <!-- Text input-->
+                <div class="row form-group">
+                    <label class="col-sm-1 control-label" for="step">Step</label>  
+                    <div class="col-sm-5 form-horizontal">
+                        <input id="step" name="step" type="text" placeholder="placeholder" class="form-control input-md step" value="From a Home screen, swipe up to access Apps."></input>
+                    </div>
+                    
+                        <div class="col-md-4">
+                            <button id="singlebutton" name="singlebutton" class="btn" onclick="newStep(this)">+</button>
+                        </div>
+                    
+                        
+                </div>
+                
+                
+                
+            
+            
+                <button type="submit"  id="submit" name="singlebutton" class="btn btn-primary" onclick="generate()">Submit</button>
+        
+                <pre id="dita" style="margin-top:20px;"></pre>
+       
+    </body>
+</html>
+

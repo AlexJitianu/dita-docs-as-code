@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="22.0">
+    <meta>
+        <filters directoryPatterns="" filePatterns="\QmarkdownValidation.xpr\E" positiveFilePatterns="" showHiddenFiles="false"/>
+        <options>
+            <serialized version="22.0" xml:space="preserve">
+                <serializableOrderedMap>
+                    <entry>
+                        <String>key.markdown.schematron.validator.option.pane</String>
+                        <Boolean>true</Boolean>
+                    </entry>
+                    <entry>
+                        <String>markdown.schematron.validator</String>
+                        <markdownSchematronValidatorOptions>
+                            <field name="mdValidatorOptions">
+                                <serializableOrderedMap>
+                                    <entry>
+                                        <String>DITA</String>
+                                        <markdownSchematronValidatorTypeOptions>
+                                            <field name="isValidationEnable">
+                                                <Boolean>true</Boolean>
+                                            </field>
+                                            <field name="schematronPath">
+                                                <String>${pdu}/md-as-dita.sch</String>
+                                            </field>
+                                        </markdownSchematronValidatorTypeOptions>
+                                    </entry>
+                                    <entry>
+                                        <String>HTML</String>
+                                        <markdownSchematronValidatorTypeOptions>
+                                            <field name="isValidationEnable">
+                                                <Boolean>true</Boolean>
+                                            </field>
+                                            <field name="schematronPath">
+                                                <String>${pdu}/md-as-html.sch</String>
+                                            </field>
+                                        </markdownSchematronValidatorTypeOptions>
+                                    </entry>
+                                </serializableOrderedMap>
+                            </field>
+                        </markdownSchematronValidatorOptions>
+                    </entry>
+                </serializableOrderedMap>
+            </serialized>
+        </options>
+    </meta>
+    <projectTree name="markdownSchematronValidation.xpr">
+        <folder path="."/>
+    </projectTree>
+</project>

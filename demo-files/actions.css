@@ -1,0 +1,16 @@
+cmd:after {
+    font: monospace;
+    
+    content: oxy_button(
+        action, oxy_action(
+          name, '[+]', 
+          description, 'Add a new step after the current one.', 
+          operation, 'InsertFragmentOperation', 
+          arg-fragment, '<step><cmd><?oxy-placeholder content="The step that the user must perform."?></cmd></step>',
+          arg-insertLocation, 'ancestor-or-self::step',
+          arg-insertPosition, 'After'
+), transparent, true, fontInherit, true
+)
+
+
+}

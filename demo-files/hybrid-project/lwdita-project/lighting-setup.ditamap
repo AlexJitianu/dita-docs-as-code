@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE map PUBLIC "-//OASIS//DTD LIGHTWEIGHT DITA Map//EN" "map.dtd">
+<map>
+    <topicmeta>
+        <navtitle>Remote Lighting Setup</navtitle>
+    </topicmeta>
+    
+    <keydef keys="product-name">
+        <topicmeta>
+            <linktext><ph>Remote Network Lighting</ph></linktext>
+        </topicmeta>
+    </keydef>
+    
+    <topicref href="xdita-topics/bulbs-to-groups.dita" format="dita"/>
+    <topicref href="hdita-topics/low-power.html" format="hdita"/>
+    <topicref href="mdita-topics/basic-concepts.md" format="mdita"/>
+    <topicref href="external/dita-topics/contact-info.dita" format="dita"/>
+</map>

@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE topic
+  PUBLIC "-//OASIS//DTD DITA Topic//EN" "topic.dtd">
+<topic xmlns:ditaarch="http://dita.oasis-open.org/architecture/2005/"
+       id="markdown_small_article_test">
+   <title class="- topic/title ">MARKDOWN Small article test</title>
+   <body class="- topic/body ">
+      <p class="- topic/p ">Paragraphs are separated by a blank line.</p>
+      <p class="- topic/p ">2nd paragraph. <i class="+ topic/ph hi-d/i ">Italic</i>, <b class="+ topic/ph hi-d/b ">bold</b>, and <codeph class="+ topic/ph pr-d/codeph ">monospace</codeph>. Itemized lists
+look like:</p>
+      <ul class="- topic/ul ">
+         <li class="- topic/li ">this one</li>
+         <li class="- topic/li ">that one</li>
+         <li class="- topic/li ">the other one</li>
+      </ul>
+   </body>
+</topic>

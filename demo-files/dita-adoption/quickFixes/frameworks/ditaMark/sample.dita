@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE topic PUBLIC "-//OASIS//DTD DITA Topic//EN" "topic.dtd">
+<topic id="topic_gsq_fv3_nx">
+    <title>The path from Markdown to DITA</title>
+    <body>
+        <section id="section_zjd_zyt_4x">
+            <title>Lists</title>
+            <p>Unordered lists like below are automatically converted to DITA lists:</p>
+            <p>* item </p>
+            <p>* another item</p>
+            <p>* one more</p>
+            <p>You can use both * and - to signal a list item</p>
+            <p>- sample</p>
+            <p>- using</p>
+            <p>- dash</p>
+            <p>If we already have a list a new item at the end will be added to the existing
+                list</p>
+            <ul id="ul_pdt_5ts_4x">
+                <li>sample</li>
+                <li>list</li>
+            </ul>
+            <p>* another item</p>
+            <p>Ordered lists start with '1.' like below:</p>
+            <p>1. first Item  </p>
+            <p>1. second item</p>
+            <p>1. third item</p>
+            <p>But the actual number after the first one is not really important:</p>
+            <p>1. first item</p>
+            <p>4. second item</p>
+            <p>9. third item</p>
+        </section>
+        <section id="section_rqy_dzt_4x">
+            <title>Quotes</title>
+            <p>Below you can see a fragment from [Wikipedia](http://www.wikipedia.org)</p>
+            <p>> Wikipedia is hosted by the <xref href="https://wikimediafoundation.org/"
+                    format="html" scope="external">Wikimedia Foundation</xref>, </p>
+            <p>> a non-profit organization that also hosts a range of </p>
+            <p>> other projects. </p>
+        </section>
+        <section id="section_wfq_pzt_4x">
+            <title>Code blocks and inline code</title>
+            <p>```</p>
+            <p>1+1=2</p>
+            <p>2+2=4</p>
+            <p>```</p>
+            <p>We can handle also `inline code` markup </p>
+        </section>
+        <section id="section_dny_rzt_4x">
+            <title>Links</title>
+            <p>Links are also detected and converted to cross references, like this one: </p>
+            <p>See the [oXygen website](http://www.oxygenxml.com) for more details.</p>
+            <p>Or we can have quick links &lt;http://www.oxygenxml.com> and these also can be
+                converted to DITA cross references.</p>
+            <p>We can combine a link and a list and we have two fixes available, to convert to list
+                and to convert the link to a cross reference:</p>
+            <p>* See the [oXygen website](http://www.oxygenxml.com) for more details.</p>
+        </section>
+        <section id="section_scs_ryt_4x">
+            <title>Images</title>
+            <p>An image using Markdown format  will be converted to a figure or image element,
+                depending whether there is a title or not.</p>
+            <p>In this case we have a title, so we should get a figure ![oXygen
+                logo](https://www.oxygenxml.com/img/resources/oxygen190x62.png "One of the oXygen
+                logos") which is a block!</p>
+            <p>In this case we obtain only an image ![oXygen
+                logo](https://www.oxygenxml.com/img/resources/oxygen190x62.png) which is rendered
+                inline.</p>
+        </section>
+        <section id="section_z1g_qjx_4x">
+            <title>Tables</title>
+            <p>We can convert tables with header row:</p>
+            <p>|test|table|conversion|</p>
+            <p>|-|-|-|</p>
+            <p>|1|2|3|</p>
+            <p>|1|2|3|</p>
+            <p>We can convert tables without a header row: </p>
+            <p>|-|-|-|</p>
+            <p>|1|2|3|</p>
+            <p>|1|2|3|</p>
+        </section>
+        <section id="section_lqq_5yt_4x">
+            <title>Sections</title>
+            <p>Sections can be easily created by using ## to mark their title.</p>
+        </section>
+        <p>## New section</p>
+        <section id="section_rpv_wyt_4x">
+            <title>Inner and sibling topics</title>
+            <p>On the last paragraph you can use # to mark an inner or sibling topic title</p>
+        </section>
+        <p># New topic</p>
+    </body>
+</topic>

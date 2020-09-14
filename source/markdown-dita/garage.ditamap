@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE map PUBLIC "-//OASIS//DTD DITA Map//EN"
+ "map.dtd">
+<!-- This file is part of the DITA Open Toolkit project hosted on 
+     Sourceforge.net. See the accompanying license.txt file for 
+     applicable licenses.-->
+<!-- (C) Copyright IBM Corporation 2001, 2005. All Rights Reserved.
+
+Modified by Syncro Soft 2016.
+-->
+<map>
+  <title>Car Maintenance</title>
+  <topicref href="tasks/garagetasksoverview.md" format="markdown">
+    <topicref href="tasks/carMaintenance.md" format="markdown"/>
+    <topicref href="tasks/changingtheoil.md" format="markdown"/>
+    <topicref href="tasks/washingthecar.md" format="markdown"/>
+  </topicref>
+  
+  <topicref href="concepts/garageconceptsoverview.dita" type="concept" audience="expert">
+    <topicref href="concepts/lawnmower.dita" type="concept" audience="novice"/>
+    <topicref href="concepts/oil.dita" type="concept"/>
+    <topicref href="concepts/paint.dita" type="concept"/>
+    <topicref href="concepts/shelving.dita" type="concept"/>
+    <topicref href="concepts/snowshovel.dita" type="concept"/>
+    <topicref href="concepts/toolbox.dita" type="concept"/>
+    <topicref href="concepts/tools.dita" type="concept"/>
+    <topicref href="concepts/waterhose.dita" type="concept"/>
+    <topicref href="concepts/wheelbarrow.dita" type="concept"/>
+    <topicref href="concepts/workbench.dita" type="concept"/>
+    <topicref href="concepts/wwfluid.dita" type="concept"/>
+  </topicref>
+  
+  <reltable>
+    <relrow>
+      <relcell>
+        <topicref href="tasks/changingtheoil.md" format="markdown"/>
+      </relcell>
+      <relcell>
+        <topicref href="tasks/carMaintenance.md" format="markdown"/>
+      </relcell>
+    </relrow>
+  </reltable>
+  
+  <topichead navtitle="Keys" processing-role="resource-only">
+    <keydef keys="carwash" href="image/carwash.jpg" format="jpg"/>
+    <keydef keys="water.hose" href="concepts/waterhose.dita" />
+  </topichead>
+</map>

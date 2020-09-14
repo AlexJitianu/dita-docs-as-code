@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<serialized version="22.0" xml:space="preserve">
+	<serializableOrderedMap>
+		<entry>
+			<String>check.completeness.options</String>
+			<checkCompletnessOptions>
+				<field name="batchValidateDITAReferencesSelected">
+					<Boolean>false</Boolean>
+				</field>
+				<field name="checkNonDITAReferencesSelected">
+					<Boolean>true</Boolean>
+				</field>
+				<field name="includeRemoteResourcesSelected">
+					<Boolean>false</Boolean>
+				</field>
+				<field name="useDitavalFileSeletcted">
+					<Boolean>true</Boolean>
+				</field>
+				<field name="fromAssociatedScenarioRadioSelected">
+					<Boolean>false</Boolean>
+				</field>
+				<field name="fromCurrentConditionSetSelected">
+					<Boolean>true</Boolean>
+				</field>
+				<field name="fromAllConditionSetsSelected">
+					<Boolean>false</Boolean>
+				</field>
+				<field name="checkForDuplicateSelected">
+					<Boolean>false</Boolean>
+				</field>
+				<field name="onlyTopicInMap">
+					<Boolean>true</Boolean>
+				</field>
+				<field name="identifyProfilingConflicts">
+					<Boolean>true</Boolean>
+				</field>
+				<field name="reportProfilingConflictsWithPrefs">
+					<Boolean>false</Boolean>
+				</field>
+				<field name="checkTableLayoutCheckbox">
+					<Boolean>true</Boolean>
+				</field>
+				<field name="reportDuplicateTopics">
+					<Boolean>false</Boolean>
+				</field>
+				<field name="reportExternalReferences">
+					<Boolean>false</Boolean>
+				</field>
+				<field name="reportDuplicateKeyDefs">
+					<Boolean>false</Boolean>
+				</field>
+				<field name="reportNotUsedKeyDefs">
+					<Boolean>true</Boolean>
+				</field>
+				<field name="reportUnusedElemsWithID">
+					<Boolean>false</Boolean>
+				</field>
+				<field name="ditavalFilePaths">
+					<list/>
+				</field>
+				<field name="additionalSchematronChecksURL">
+					<null/>
+				</field>
+			</checkCompletnessOptions>
+		</entry>
+	</serializableOrderedMap>
+</serialized>

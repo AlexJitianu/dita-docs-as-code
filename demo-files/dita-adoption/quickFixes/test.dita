@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE topic PUBLIC "-//OASIS//DTD DITA Topic//EN" "topic.dtd">
+<?xml-model href="frameworks/ditaMark/rules/md2dita.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<topic id="topic_uvm_fbj_px">
+  <title>Learning DITA from a Markdown perspective</title>
+  <shortdesc>Type in the paragraphs below different Markdown patterns and note the suggestions to covert them to DITA.</shortdesc>
+  <body>
+    <p>* item 1</p>
+    <p>* item 2</p>
+    <p>* item 3</p>
+    <p/>
+    <p/>
+    <p/>
+  </body>
+</topic>

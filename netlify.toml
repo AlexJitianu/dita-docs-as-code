@@ -1,0 +1,3 @@
+[build]
+  command = "bash scripts/sonar/sonar.sh && bash scripts/publishing/publish.sh"
+  publish = "bin/out"
