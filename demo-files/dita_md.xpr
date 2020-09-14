@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<project version="22.0">
+<project version="22.1">
     <meta>
         <filters directoryPatterns="" filePatterns="\Qtekom.xpr\E" positiveFilePatterns="" showHiddenFiles="false"/>
         <options>
-            <serialized version="22.0" xml:space="preserve">
+            <serialized version="22.1" xml:space="preserve">
                 <serializableOrderedMap>
                     <entry>
                         <String>additional.frameworks.directories</String>
@@ -47,6 +47,9 @@
                                         <String>XML</String>
                                     </list>
                                 </field>
+                                <field name="scenarioStorageLocations">
+                                    <list/>
+                                </field>
                             </scenarioAssociation>
                             <scenarioAssociation>
                                 <field name="url">
@@ -62,6 +65,9 @@
                                         <String>DITAMAP</String>
                                     </list>
                                 </field>
+                                <field name="scenarioStorageLocations">
+                                    <list/>
+                                </field>
                             </scenarioAssociation>
                             <scenarioAssociation>
                                 <field name="url">
@@ -76,6 +82,9 @@
                                     <list>
                                         <String>DITAMAP</String>
                                     </list>
+                                </field>
+                                <field name="scenarioStorageLocations">
+                                    <list/>
                                 </field>
                             </scenarioAssociation>
                         </scenarioAssociation-array>
@@ -650,28 +659,6 @@
         </options>
     </meta>
     <projectTree name="dita_md.xpr">
-        <folder name="1.convert">
-            <file name="conversion/sample.ditamap"/>
-            <file name="conversion/sample.md"/>
-        </folder>
-        <folder name="2.md-and-dita">
-            <folder name="1.dita-glass">
-                <file name="dita-glass/ssp/demo/presentationSamples/convertSamplesWithAliasRelative.ditamap"/>
-                <file name="dita-glass/ssp/demo/presentationSamples/resources/sales.xls"/>
-                <file name="dita-glass/ssp/demo/presentationSamples/resources/sample.md"/>
-            </folder>
-            <folder name="2.hybrid-project">
-                <file name="hybrid-project/markdown-dita/garage.ditamap"/>
-                <file name="hybrid-project/lwdita-project/lighting-setup.ditamap"/>
-            </folder>
-        </folder>
-        <folder name="3.special">
-            <folder name="1.conversions">
-                <file name="dita-adoption/quickFixes/test.dita"/>
-            </folder>
-            <file name="dita-adoption/form/form.html"/>
-            <file name="https://www.oxygenxml.com/oxygen-xml-web-author/app/oxygen.html?url=gitgh%3A%2F%2Fhttps%253A%252F%252Fgithub.com%252FAlexJitianu%252FWeb-author-test%2Fmaster%2FaccountTask.dita"/>
-        </folder>
         <folder path="."/>
     </projectTree>
 </project>
