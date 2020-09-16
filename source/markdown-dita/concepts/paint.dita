@@ -7,34 +7,10 @@
 <!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN"
  "concept.dtd">
 <concept id="paintconcept" xml:lang="en-us">
-<title>Paint and stuff</title>
-<shortdesc>Paint is useful for refreshing the look of rooms and furniture. A new content
-  here.</shortdesc>
-<conbody><p>Store unused paint in the garage.<table id="table_vs1_1kd_1nb">
-        <title>new table</title>
-        <tgroup cols="2">
-          <colspec colname="c1" colnum="1" colwidth="1*"/>
-          <colspec colname="c2" colnum="2" colwidth="1*"/>
-          <thead>
-            <row>
-              <entry>header1</entry>
-              <entry>header 2</entry>
-            </row>
-          </thead>
-          <tbody>
-            <row>
-              <entry><image href="../image/carwash.jpg" id="image_jwh_bkd_1nb"/></entry>
-              <entry/>
-            </row>
-            <row>
-              <entry/>
-              <entry/>
-            </row>
-            <row>
-              <entry/>
-              <entry/>
-            </row>
-          </tbody>
-        </tgroup>
-      </table></p></conbody>
+  <title>Paint and stuff</title>
+  <shortdesc>Paint is useful for refreshing the look of rooms and furniture. A new content
+    here.</shortdesc>
+  <conbody>
+    <p>Store unused paint in the garage.</p>
+  </conbody>
 </concept>
