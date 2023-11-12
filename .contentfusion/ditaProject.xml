@@ -13,9 +13,15 @@
         </profile>
     </context>
     <publication id="webhelp" transtype="webhelp-responsive"/>
+    <publication id="pdf" transtype="pdf-css-html5"/>
     <deliverable id="X1000_Userguide_WebHelp-1699818385762" name="X1000 Userguide WebHelp">
         <context idref="WbvTMuoOvvOgIzT"/>
         <output href="webhelp-output"/>
         <publication idref="webhelp"/>
+    </deliverable>
+    <deliverable id="X1000_Userguide_PDF-1699818424295" name="X1000 Userguide PDF">
+        <context idref="WbvTMuoOvvOgIzT"/>
+        <output href="pdf-output"/>
+        <publication idref="pdf"/>
     </deliverable>
 </project>
