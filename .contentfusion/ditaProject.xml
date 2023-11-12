@@ -12,4 +12,10 @@
             <ditaval href="../demo-files/mobile-phone/ditaval/x2000.ditaval"/>
         </profile>
     </context>
+    <publication id="webhelp" transtype="webhelp-responsive"/>
+    <deliverable id="X1000_Userguide_WebHelp-1699818385762" name="X1000 Userguide WebHelp">
+        <context idref="WbvTMuoOvvOgIzT"/>
+        <output href="webhelp-output"/>
+        <publication idref="webhelp"/>
+    </deliverable>
 </project>
